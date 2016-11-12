@@ -1,0 +1,76 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{fullpage}
+\usepackage{filecontents}
+\usepackage{csvtools}
+\usepackage{eso-pic}
+\usepackage{graphicx}
+\usepackage{fix-cm}
+\usepackage{pstricks}
+\usepackage{blindtext}
+\usepackage{tcolorbox}
+\pagestyle{empty}
+
+
+\setlength{\oddsidemargin}{-15mm}
+
+%\iffalse
+%\AddToShipoutPicture{%
+%   \setlength\unitlength{1mm}
+%    \put(8,200.5){\includegraphics[height=55mm,keepaspectratio=false]{logo}}
+%   \put(107,200.5){\includegraphics[height=55mm,keepaspectratio=true]{logo}}
+%    \put(8,143){\includegraphics[height=55mm,keepaspectratio=true]{logo}}
+%   \put(107,143){\includegraphics[height=55mm,keepaspectratio=true]{logo}}
+%    \put(8,85){\includegraphics[height=55mm,keepaspectratio=true]{logo}}
+%   \put(107,85){\includegraphics[height=55mm,keepaspectratio=true]{logo}}
+%     \put(8,27.5){\includegraphics[height=55mm,keepaspectratio=true]{logo}}
+%    \put(107,27.5){\includegraphics[height=55mm,keepaspectratio=true]{logo}}
+%}
+%\fi
+
+%\begin{filecontents*}{names.csv}
+%Name,Affiliation
+%Neil Carter, Swansea University
+%\end{filecontents*}
+
+\begin{document}
+
+\applyCSVfile{names.csv}{%
+    \noindent
+        \fbox{\begin{minipage}[t][54mm]{92mm}
+	\sffamily \centering
+   	\begin{tcolorbox}[length=54mm,width=92mm,colback={blue!15!},title=\centering{\LARGE\\
+        \fontsize{12}{14}\selectfont NDPCI - BRNS School on\\Nuclear Reactions and Applications\\2 - 12 November, 2016\\Anushaktinagar, Mumbai-400094, India} ,colbacktitle=blue,coltitle=white]    
+       \LARGE \vspace{3mm}
+		\centering
+                \fontsize{24}{26}\selectfont\insertName\\[2]
+                %\LARGE \vspace{2mm}
+		\fontsize{14}{16}\selectfont\insertAffiliation%\\[2]
+                %\itshape\insertAffiliation
+                \LARGE \vspace{2mm}
+
+                %\itshape\insertNationality%\\[2]
+		\fontsize{20}{22}\selectfont\insertNationality%\\[2]
+  		\LARGE \vspace{2mm}
+
+       \end{tcolorbox}    
+
+%            \vspace{10mm}
+%
+%            \sffamily \centering
+             
+              %\psframebox[fillcolor={rgb:red,1;green,2;blue,3}]{hello}
+%		\fontsize{30}{36}\selectfont\insertConfName
+%                \LARGE \vspace{10mm}
+
+%                \fontsize{30}{36}\selectfont\insertName
+%                \LARGE \vspace{2mm}
+
+%                \itshape\insertAffiliation
+%                \LARGE \vspace{10mm}
+
+
+%                \itshape\insertid
+            \end{minipage}}
+}
+
+\end{document}
