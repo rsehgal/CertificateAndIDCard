@@ -1,33 +1,35 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.9.12)  12 NOV 2016 22:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.2.10)  3 OCT 2017 17:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**cert2.tex
+**cert2.tex r
 (./cert2.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
-Document Class: scrartcl 2013/12/19 v3.12 KOMA-Script document class (article)
+Document Class: scrartcl 2012/07/29 v3.11b KOMA-Script document class (article)
+
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-dependent b
-asics and keyval usage)
+Package: scrkbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
 
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-independent 
-basics and keyval usage)
+Package: scrbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2013/12/19 v3.12 KOMA-Script package (loading files)
+Package: scrlfile 2012/06/15 v3.12 KOMA-Script package (loading files)
 
-Package scrlfile, 2013/12/19 v3.12 KOMA-Script package (loading files)
+Package scrlfile, 2012/06/15 v3.12 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
 ))) (/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2013/12/19 v3.12 KOMA-Script package (handling toc-files)
+Package: tocbasic 2012/04/04 v3.10b KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
@@ -38,27 +40,24 @@ Package tocbasic Info: omitting babel extension for `lof'
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 117.
+Package scrartcl Info: You've used obsolete option `16pt'.
+(scrartcl)             \KOMAExecuteOptions{fontsize=16pt} will be
+(scrartcl)             used instead.
+(scrartcl)             You may simply replace `16pt'
+(scrartcl)             by `fontsize=16pt'.
 
-
-Package scrartcl Warning: You've used obsolete option `16pt'.
-(scrartcl)                Usage of this option indicates an old document and
-(scrartcl)                is deprecated.
-(scrartcl)                You should simply replace
-(scrartcl)                usage of option `16pt' by `fontsize=16pt'.
-
-Class scrartcl Info: Switching compatibility level to `first'.
 
 Class scrartcl Warning: Using fallback calculation to setup font sizes
-(scrartcl)              for basic size `16pt' on input line 1531.
+(scrartcl)              for basic size `16pt' on input line 1267.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 1531.
+(Font)              size <17.28> substituted on input line 1267.
 
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2013/12/19 v3.12 KOMA-Script package (type area)
+Package: typearea 2012/07/29 v3.11b KOMA-Script package (type area)
 
-Package typearea, 2013/12/19 v3.12 KOMA-Script package (type area)
+Package typearea, 2012/07/29 v3.11b KOMA-Script package (type area)
                   Copyright (C) Frank Neukam, 1992-1994
                   Copyright (C) Markus Kohm, 1994-
 
@@ -67,7 +66,6 @@ Package typearea, 2013/12/19 v3.12 KOMA-Script package (type area)
 \ta@hblk=\skip42
 \ta@vblk=\skip43
 \ta@temp=\skip44
-\footheight=\skip45
 
 Package typearea Warning: DIV for 16.0pt and used papersize
 (typearea)                not defined!
@@ -90,7 +88,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 16.0pt
 (typearea)              \footskip       = 67.19983pt
 (typearea)              \baselineskip   = 19.19995pt
-(typearea)              on input line 1330.
+(typearea)              on input line 1213.
 )
 \c@part=\count80
 \c@section=\count81
@@ -98,8 +96,8 @@ Package typearea Info: These are the values describing the layout:
 \c@subsubsection=\count83
 \c@paragraph=\count84
 \c@subparagraph=\count85
-\abovecaptionskip=\skip46
-\belowcaptionskip=\skip47
+\abovecaptionskip=\skip45
+\belowcaptionskip=\skip46
 \c@pti@nb@sid@b@x=\box26
 \c@figure=\count86
 \c@table=\count87
@@ -166,7 +164,7 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip48
+\@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -216,8 +214,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \totwidth@=\dimen118
 \lineht@=\dimen119
 \@envbody=\toks19
-\multlinegap=\skip49
-\multlinetaggap=\skip50
+\multlinegap=\skip48
+\multlinetaggap=\skip49
 \mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
@@ -462,7 +460,8 @@ LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <16> not available
 
 ) (./calligra.sty
 Package: calligra 1996/07/18 v1.8 LaTeX package calligra
-) (/usr/share/texmf/tex/latex/tex-gyre/tgschola.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tex-gyre/tgschola.sty
 Package: tgschola 2009/09/27 v1.2 TeX Gyre Schola as default roman family
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
@@ -502,20 +501,20 @@ Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count105
 \calc@Adimen=\dimen122
 \calc@Bdimen=\dimen123
-\calc@Askip=\skip51
-\calc@Bskip=\skip52
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count106
-\calc@Cskip=\skip53
+\calc@Cskip=\skip52
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
+Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 )
-(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
@@ -532,19 +531,19 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 ))
-\wpXoffset=\skip54
-\wpYoffset=\skip55
-\tileXoffset=\skip56
-\tileYoffset=\skip57
-\tilewidth=\skip58
-\tileheight=\skip59
-\tileX=\skip60
-\tileY=\skip61
+\wpXoffset=\skip53
+\wpYoffset=\skip54
+\tileXoffset=\skip55
+\tileYoffset=\skip56
+\tilewidth=\skip57
+\tileheight=\skip58
+\tileX=\skip59
+\tileY=\skip60
 )
 (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box29
 \UL@hyphenbox=\box30
-\UL@skip=\skip62
+\UL@skip=\skip61
 \UL@hook=\toks23
 \UL@height=\dimen124
 \UL@pe=\count107
@@ -557,25 +556,24 @@ Package: ulem 2012/05/18
 Package: charter 2005/04/12 PSNFSS-v9.2a (P.Dyballa) 
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
+Package: microtype 2013/03/13 v2.5 Micro-typographical refinements (RS)
 \MT@toks=\toks24
 \MT@count=\count108
-LaTeX Info: Redefining \textls on input line 766.
+LaTeX Info: Redefining \textls on input line 771.
 \MT@outer@kern=\dimen127
-LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
+LaTeX Info: Redefining \textmicrotypecontext on input line 1290.
 \MT@listname@count=\count109
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 915.
-LaTeX Info: Redefining \lslig on input line 915.
-\MT@outer@space=\skip63
+File: microtype-pdftex.def 2013/03/13 v2.5 Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 889.
+LaTeX Info: Redefining \lslig on input line 889.
+\MT@outer@space=\skip62
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
+File: microtype.cfg 2013/03/13 v2.5 microtype main configuration file (RS)
 ))
 (./Zallman.fd
 File: Zallman.fd 2003/04/02 Font definition file for U/Zallman
@@ -660,7 +658,7 @@ Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks27
 \@dtl@tmpcount=\count125
-\dtl@tmplength=\skip64
+\dtl@tmplength=\skip63
 \dtl@sortresult=\count126
 \@dtl@numgrpsepcount=\count127
 \@dtl@datatype=\count128
@@ -820,30 +818,30 @@ File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
 <brnsBanner.jpg, id=1, 201.75375pt x 204.765pt>
 File: brnsBanner.jpg Graphic file (type jpg)
  <use brnsBanner.jpg>
-Package pdftex.def Info: brnsBanner.jpg used on input line 116.
+Package pdftex.def Info: brnsBanner.jpg used on input line 110.
 (pdftex.def)             Requested size: 78.05173pt x 79.2175pt.
-LaTeX Font Info:    Calculating math sizes for size <16> on input line 116.
+LaTeX Font Info:    Calculating math sizes for size <16> on input line 110.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+File: mt-cmr.cfg 2011/04/09 v2.1 microtype config. file: Computer Modern Roman 
 (RS)
 )
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16> not available
-(Font)              size <17.28> substituted on input line 116.
+(Font)              size <17.28> substituted on input line 110.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 116.
+(Font)              size <17.28> substituted on input line 110.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 116.
+LaTeX Font Info:    Try loading font information for U+msa on input line 110.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 116.
+LaTeX Font Info:    Try loading font information for U+msb on input line 110.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -858,17 +856,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 }
+l.110 }
        
 ? r
 OK, entering \nonstopmode...
 <barcBanner.jpg, id=2, 128.48pt x 131.49126pt>
 File: barcBanner.jpg Graphic file (type jpg)
  <use barcBanner.jpg>
-Package pdftex.def Info: barcBanner.jpg used on input line 116.
+Package pdftex.def Info: barcBanner.jpg used on input line 110.
 (pdftex.def)             Requested size: 79.49742pt x 81.3612pt.
 
-Overfull \hbox (7.22743pt too wide) in paragraph at lines 116--116
+Overfull \hbox (7.22743pt too wide) in paragraph at lines 110--110
 [][] 
  []
 
@@ -879,7 +877,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 }
+l.110 }
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -892,7 +890,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 }
+l.110 }
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -905,7 +903,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 }
+l.110 }
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -918,58 +916,58 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 }
+l.110 }
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 LaTeX Font Info:    Calculating math sizes for size <23.04004> on input line 11
-6.
+0.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <23.04004> not available
-(Font)              size <24.88> substituted on input line 116.
+(Font)              size <24.88> substituted on input line 110.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16.12794> not available
-(Font)              size <17.28> substituted on input line 116.
+(Font)              size <17.28> substituted on input line 110.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <11.52002> not available
-(Font)              size <12> substituted on input line 116.
+(Font)              size <12> substituted on input line 110.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <23.04004> not available
-(Font)              size <24.88> substituted on input line 116.
+(Font)              size <24.88> substituted on input line 110.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16.12794> not available
-(Font)              size <17.28> substituted on input line 116.
+(Font)              size <17.28> substituted on input line 110.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <11.52002> not available
-(Font)              size <12> substituted on input line 116.
+(Font)              size <12> substituted on input line 110.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <23.04004> not available
-(Font)              size <24.88> substituted on input line 116.
+(Font)              size <24.88> substituted on input line 110.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16.12794> not available
-(Font)              size <17.28> substituted on input line 116.
+(Font)              size <17.28> substituted on input line 110.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <11.52002> not available
-(Font)              size <12> substituted on input line 116.
+(Font)              size <12> substituted on input line 110.
 
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 116.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 110.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <19.19995> not available
-(Font)              size <20.74> substituted on input line 116.
+(Font)              size <20.74> substituted on input line 110.
 
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: T1).
@@ -977,61 +975,28 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/m/n' instead on input line 116.
+(Font)              using `T1/cmss/m/n' instead on input line 110.
 
 
-Class scrartcl Warning: Usage of deprecated font command `\bf'!
-(scrartcl)              You should note, that in 1994 font command `\bf' has
-(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
-(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrartcl)              shouldn't use such commands any longer and within
-(scrartcl)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrartcl)              See `fntguide.pdf' for more information about
-(scrartcl)              recommended font commands.
-(scrartcl)              Note also, that KOMA-Script will remove the definition
-(scrartcl)              of `\bf' anytime until release of about version 3.20.
-(scrartcl)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrartcl)              by `\normalfont \bfseries ' on input line 116.
-
-
-Class scrartcl Warning: Usage of deprecated font command `\it'!
-(scrartcl)              You should note, that in 1994 font command `\it' has
-(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
-(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrartcl)              shouldn't use such commands any longer and within
-(scrartcl)              KOMA-Script usage of `\it' is definitely deprecated.
-(scrartcl)              See `fntguide.pdf' for more information about
-(scrartcl)              recommended font commands.
-(scrartcl)              Note also, that KOMA-Script will remove the definition
-(scrartcl)              of `\it' anytime until release of about version 3.20.
-(scrartcl)              But for now, KOMA-Script will replace deprecated `\it'
-(scrartcl)              by `\normalfont \itshape ' on input line 116.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 [][]
  []
 
 <border-2.jpg, id=3, 1333.98375pt x 1779.64874pt>
 File: border-2.jpg Graphic file (type jpg)
  <use border-2.jpg>
-Package pdftex.def Info: border-2.jpg used on input line 116.
+Package pdftex.def Info: border-2.jpg used on input line 111.
 (pdftex.def)             Requested size: 597.51888pt x 845.04324pt.
  [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./border-2.jpg> <./brnsBan
-ner.jpg> <./barcBanner.jpg>] (./cert2.aux)
+{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./border-2.j
+pg> <./brnsBanner.jpg> <./barcBanner.jpg>] (./cert2.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.83997pt have occurred.
@@ -1041,18 +1006,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 9611 strings out of 495028
- 139507 string characters out of 6181497
- 317386 words of memory out of 5000000
- 12542 multiletter control sequences out of 15000+600000
- 46673 words of font info for 95 fonts, out of 8000000 for 9000
+ 9464 strings out of 495063
+ 136436 string characters out of 3182201
+ 291685 words of memory out of 3000000
+ 12369 multiletter control sequences out of 15000+200000
+ 46540 words of font info for 94 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 57i,11n,61p,836b,410s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,11n,61p,838b,419s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/bitstrea/charter/bchri8a.pfb>
-Output written on cert2.pdf (1 page, 224126 bytes).
+Output written on cert2.pdf (1 page, 222065 bytes).
 PDF statistics:
  24 PDF objects out of 1000 (max. 8388607)
  14 compressed objects within 1 object stream
