@@ -1,0 +1,86 @@
+\documentclass[a4paper,11pt]{article}
+\pagenumbering{arabic}
+
+\pdfoutput=1 % if your are submitting a pdflatex (i.e. if you have
+             % images in pdf, png or jpg format)
+
+\usepackage{jinstpub} % for details on the use of the package, please
+                     % see the JINST-author-manual
+
+\topmargin   .02\paperheight
+\title{Status of reactor neutrino monitor developments in Japan}
+
+\newcommand*{\email}[1]{%
+    \textit{Email} : \normalsize\href{mailto:#1}{#1}\par
+    }
+
+%% %simple case: 2 authors, same institution
+%% \author{A. Uthor}
+%% \author{and A. Nother Author}
+%% \affiliation{Institution,\\Address, Country}
+
+% more complex case: 4 authors, 3 institutions, 2 footnotes
+\author{K. Nakajima}
+\iffalse
+\author[a,b,1]{F. Irst,\note{Corresponding author.}}
+\author[c]{S. Econd,}
+\author[a,2]{T. Hird\note{Also at Some University.}}
+\author[c,2]{and Fourth}
+\fi
+% The "\note" macro will give a warning: "Ignoring empty anchor..."
+% you can safely ignore it.
+\affiliation{Graduate School of Engineering, University of Fukui, Fukui 910-8507, Japan \\ \email{user@gmail.com}} 
+% \\ \it {Email} : first@one.univ }
+
+
+
+
+
+\iffalse
+\affiliation[a]{One University,\\some-street, Country}
+\affiliation[b]{Another University,\\different-address, Country}
+\affiliation[c]{A School for Advanced Studies,\\some-location, Country}
+\fi
+% e-mail addresses: only for the forresponding author
+\emailAdd{first@one.univ}
+
+
+\abstract{
+All nuclear power plants in Japan had stopped after the Fukushima Daiichi nuclear disaster in 2011. However, some nuclear reactors recently restarted, and 5 reactors out of 57 are currently in operation. The possibility of the reactor neutrino monitoring near commercial reactors is gradually increasing.
+
+\p In Japan, the different types of reactor neutrino monitor were individually developed in each institues; Kitasato University, Tohoku University, and Niigata University. We formed a consortium to achieve the reactor neutrino monitoring in nuclear power plants, where the regulation became extremely strict after the disaster. We plan to perform a measurement in the ground near reactor building instead of the inside, considering the strict regulation.
+
+\p The PANDA experiment, which uses the plastic scintillator, has been developed in University of Tokyo and been taken over to Kitasato University in 2016. The detector construction was completed last year, and the detector consisted of 100 plastic scintillator modules with a 1 m3 volume in total. A measurement for gamma ray burst from thunder were performed in Aug. 2016, and a background measurement in the ground outside were performed in Sep. 2017. As for the development of plastic scintillators, the members in Niigata University study a plastic scintillators loaded boron for the effective detection of thermal neutrons emitted in the inverse beta decay reaction.
+
+\p As for the liquid scintillator detector, the members in Tohoku University are developing a 400 L liquid scintillator detector with a PSD capability. We developed a scintillator that achieves 95% signal efficiency with 99% rejection efficiency of fast neutrons. The safety monitors such as temperature, gas and oil sensor are necessary and under development.
+
+\p Members in Fukui University (including author) is preparing a small detector for the environmental radiation measurement in the nuclear power plant. We will measure cosmic muons, fast neutrons, and gamma rays in real installation site of the detector. After the background measurement, we plan to install the PANDA detector, and hopefully the LS detector in the future.
+}
+\afterTitleSpace
+
+\iffalse
+\keywords{Only keywords from JINST's keywords list please}
+\arxivnumber{1234.56789} % only if you have one
+\fi
+
+% \collaboration{\includegraphics[height=17mm]{example-image}\\[6pt]
+%   XXX collaboration}
+% or
+\iffalse
+\collaboration[c]{on behalf of XXX collaboration}
+
+
+% if you write for a special issue this may be useful
+
+\proceeding{N$^{\text{th}}$ Workshop on X\\
+  when\\
+  where}
+\fi
+
+
+\begin{document}
+\maketitle
+\flushbottom
+
+
+\end{document}

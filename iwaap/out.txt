@@ -1,0 +1,248 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013)
+ restricted \write18 enabled.
+entering extended mode
+(./iwaap.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo)) (./jinstpub.sty
+(./newtxtext.sty
+`newtxtext' v1.526, 2017/08/18 Text macros taking advantage of TeX-Gyre Termes 
+fonts (msharpe) (./fontaxes.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex)))
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def))
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty) (./newtxmath.sty
+`newtxmath' v1.241, 2014/03/18 Math macros based on txfonts (msharpe)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kastrup/binhex.tex)) (./newtxtt.sty
+`newtxtt' v1.051, 2014/12/23 Typewriter text macros based on txfonts (msharpe)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))))
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+
+Package hyperref Warning: Option `pagecolor' is not available anymore.
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+(./wrapfig.sty) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def))
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd))
+
+LaTeX Font Warning: Font shape `T1/ntxtlf/m/n' undefined
+(Font)              using `T1/cmr/m/n' instead on input line 81.
+
+(./iwaap.aux)
+No file OMLntxmi.fd.
+
+! LaTeX Error: This NFSS system isn't set up properly.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 \begin{document}
+                     
+? OK, entering \nonstopmode...
+No file OMSntxsy.fd.
+
+! LaTeX Error: This NFSS system isn't set up properly.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 \begin{document}
+                     
+No file Untxexa.fd.
+
+! LaTeX Error: This NFSS system isn't set up properly.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 \begin{document}
+                     
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./iwaap.out) (./iwaap.out)
+
+LaTeX Font Warning: Font shape `T1/ntxtlf/m/sc' undefined
+(Font)              using `T1/ntxtlf/m/n' instead on input line 82.
+
+(/usr/share/texlive/texmf-dist/tex/latex/tex-gyre/t1qhv.fd)
+
+LaTeX Font Warning: Font shape `T1/ntxtlf/bx/n' undefined
+(Font)              using `T1/ntxtlf/m/n' instead on input line 82.
+
+
+LaTeX Font Warning: Font shape `T1/ntxtlf/m/it' undefined
+(Font)              using `T1/ntxtlf/m/n' instead on input line 82.
+
+(./t1newtxtt.fd)
+! Font T1/newtxtt/m/n/10.95=newtxtte at 10.95pt not loadable: Metric (TFM) file
+ not found.
+<to be read again> 
+                   relax 
+l.82 \maketitle
+               
+! Font T1/newtxtt/m/n/10=newtxtte at 10.0pt not loadable: Metric (TFM) file not
+ found.
+<to be read again> 
+                   relax 
+l.82 \maketitle
+               
+
+LaTeX Font Warning: Font shape `OML/ntxmi/m/it' undefined
+(Font)              using `OML/ntxmi/m/it' instead on input line 82.
+
+! Corrupted NFSS tables.
+wrong@fontshape ...message {Corrupted NFSS tables}
+                                                  error@fontshape else let f...
+l.82 \maketitle
+               
+
+LaTeX Font Warning: Font shape `OML/ntxmi/m/it' undefined
+(Font)              using `OT1/cmr/m/n' instead on input line 82.
+
+
+LaTeX Font Warning: Font shape `OMS/ntxsy/m/n' undefined
+(Font)              using `OMS/ntxsy/m/n' instead on input line 82.
+
+! Corrupted NFSS tables.
+wrong@fontshape ...message {Corrupted NFSS tables}
+                                                  error@fontshape else let f...
+l.82 \maketitle
+               
+
+LaTeX Font Warning: Font shape `OMS/ntxsy/m/n' undefined
+(Font)              using `OT1/cmr/m/n' instead on input line 82.
+
+! Font LMX/ntxexx/m/n/10.95=ntxexx at 10.95pt not loadable: Metric (TFM) file n
+ot found.
+<to be read again> 
+                   relax 
+l.82 \maketitle
+               
+! Font LMX/ntxexx/m/n/8=ntxexx at 8.0pt not loadable: Metric (TFM) file not fou
+nd.
+<to be read again> 
+                   relax 
+l.82 \maketitle
+               
+! Font LMX/ntxexx/m/n/6.1=ntxexx at 6.1pt not loadable: Metric (TFM) file not f
+ound.
+<to be read again> 
+                   relax 
+l.82 \maketitle
+               
+
+LaTeX Font Warning: Font shape `U/ntxmia/m/it' undefined
+(Font)              using `U/ntxexa/m/n' instead on input line 82.
+
+
+LaTeX Font Warning: Font shape `U/ntxexa/m/n' undefined
+(Font)              using `U/ntxexa/m/n' instead on input line 82.
+
+! Corrupted NFSS tables.
+wrong@fontshape ...message {Corrupted NFSS tables}
+                                                  error@fontshape else let f...
+l.82 \maketitle
+               
+
+LaTeX Font Warning: Font shape `U/ntxexa/m/n' undefined
+(Font)              using `OT1/cmr/m/n' instead on input line 82.
+
+
+LaTeX Font Warning: Font shape `U/ntxmia/m/it' undefined
+(Font)              using `U/ntxexa/m/n' instead on input line 82.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+
+LaTeX Font Warning: Font shape `U/ntxsyc/m/n' undefined
+(Font)              using `U/ntxexa/m/n' instead on input line 82.
+
+! Math formula deleted: Insufficient symbol fonts.
+\@iiiparbox ...bm@#3\endcsname }\if@pboxsw \m@th $
+                                                  \fi \@end@tempboxa 
+l.82 \maketitle
+               
+! Undefined control sequence.
+\@abstract ...rs is gradually increasing. \par \p 
+                                                  In Japan, the different ty...
+l.82 \maketitle
+               
+! Undefined control sequence.
+\@abstract ...ring the strict regulation. \par \p 
+                                                  The PANDA experiment, whic...
+l.82 \maketitle
+               
+! Undefined control sequence.
+\@abstract ...nverse beta decay reaction. \par \p 
+                                                  As for the liquid scintill...
+l.82 \maketitle
+               
+! Undefined control sequence.
+\@abstract ...cintillator that achieves 95\par \p 
+                                                  Members in Fukui Universit...
+l.82 \maketitle
+               
+[0{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./iwaap.toc) [1] (./iwaap.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ )
+(see the transcript file for additional information){/usr/share/texlive/texmf-d
+ist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fon
+ts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/publi
+c/tex-gyre/qhvb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/
+sfrm1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm109
+5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on iwaap.pdf (2 pages, 79285 bytes).
+Transcript written on iwaap.log.
