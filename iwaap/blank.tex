@@ -1,0 +1,39 @@
+%% Added to add header and footer
+\documentclass{article}
+\usepackage[hmargin=2.7cm,vmargin={2.5cm,2.7cm},bmargin=2.7cm,nohead,nofoot]{geometry}
+\usepackage{multido}
+\usepackage{fancyhdr}% http://ctan.org/pkg/fancyhdr
+\usepackage{tikzpagenodes}
+\usetikzlibrary{shapes.geometric}
+\usepackage{lipsum}
+
+%\cfoot{\thepage}
+\pagestyle{fancy}% Change page style to fancy
+\fancyhf{}% Clear header/footer
+%% \fancyhead[C]{Header}
+
+%%Below line is working
+%\fancyfoot[C]{International Workshop on Applied Antineutrino Physics      \thepage}% \fancyfoot[R]{\thepage}
+
+\fancyfoot[OC]{\begin{tikzpicture}[remember picture,overlay]
+\node[diamond,draw,font=\small\itshape] at (current page footer area.south east) (dia) {\thepage};
+\draw[double=white] (dia.west) -- (current page footer area.south west);
+\end{tikzpicture} \\
+International Workshop on Applied Antineutrino Physics}
+
+\fancyfoot[OR]{\small\nouppercase\leftmark}
+\fancyfoot[EL]{\small\nouppercase\rightmark}
+
+\setlength{\footskip}{20pt}
+
+\renewcommand{\headrulewidth}{0.0pt}% Default \headrulewidth is 0.4pt
+\renewcommand{\footrulewidth}{0.0pt}% Default \footrulewidth is 0pt
+%\begin{document}
+%Here is some text.
+%\multido{}{2}{\vphantom{x}\newpage}
+%\end{document}
+
+\setcounter{page}{2} 
+\begin{document}
+\multido{}{10}{\vphantom{x}\newpage}
+\end{document}
