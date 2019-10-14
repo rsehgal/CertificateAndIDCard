@@ -1,0 +1,26 @@
+The process should be followed in sequence after generation of accepted_list.csv
+
+1) copy ViewPaperScreening.php from snp2018/base snp2019/base
+
+2) execute ViewPaperScreening.php from web browser : this will create a csv file name fileCert.csv
+
+3) copy fileCert.csv in TEST directory and Certifcate directory
+
+4) Edit fileCert.csv in Certificate directory and add following as the first line 
+   uname,filename,status,fullname,affil
+
+5) Now run following command in Certificate directory
+   lualatex cert2.tex : this will create a single pdf file for all the certificates
+
+6) Copy cert2.pdf in TEST directory
+
+7) Make a copy of TEST directory
+   cp -rf TEST TEST2
+
+8) Go inside TEST2 and execute following script
+   . test.sh fileCert.csv cert2.pdf : this will create individual certificate with 
+                                      following nomenclature : <uname_paperNo.pdf>
+
+9) Upload all the certificate to appropriate directory, and create the required link
+   in the View Page
+

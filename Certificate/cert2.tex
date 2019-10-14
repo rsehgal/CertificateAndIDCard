@@ -17,7 +17,8 @@
 \newcommand*\initfamily{\usefont{U}{Zallman}{xl}{n}}
 %=============================
 \usepackage{datatool}
-\DTLloaddb{names}{namelist-1.csv}
+%\DTLloaddb{names}{namelist-1.csv}
+\DTLloaddb{names}{fileCert.csv}
 %=============================
 \def\signature#1#2{\parbox[b]{1in}{\smash{#1}\vskip12pt}
 \hfill \parbox[t]{2.8in}{\shortstack{\vrule width 2.8in height 0.4pt\\\small#2}}}
@@ -36,7 +37,7 @@
 \TileWallPaper{1\paperwidth}{1\paperheight}{border-2.jpg}
 %=============================
 \DTLforeach{names}{
-\dg=degree, \name=Name, \dgn=Dgn, \sub=subject, \inst=inst, \place=place}
+\uname=uname, \filename=filename, \status=status, \fullname=fullname, \affil=affil}
 {
 %=============================
 \noindent
@@ -88,8 +89,8 @@
 {\doublespacing 
 \vspace{1cm} This is to certify that %\underline{\hspace{20cm}} \\  \underline{\hspace{22cm}} %\uuline{{\large\sffamily\bfseries\color{name}{\dg. \MakeUppercase{\name}}}}, { \dgn}
 %\uuline
-{{\large\sffamily\bfseries\color{name}{{\bf\it\dg. {\name}}}}}, { \dgn}
-of {\sub}, {\inst}, {\place},
+{{\large\sffamily\bfseries\color{name}{{\bf\it\fullname}}}}, %{ \dgn}
+of {\affil},
 has participated in the School
 on  ``\emph{\color{phd}{Nuclear Reactions and Applications}}''   sponsored   by  {Board of Research in Nuclear Science} and  organized  by  {Nuclear
 Data Physics Centre of India, at Anushaktinagar, Mumbai},  from
